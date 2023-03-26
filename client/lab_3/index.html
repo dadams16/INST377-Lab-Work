@@ -3,3 +3,69 @@
     - The styles in this folder's `style.css`
     - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
 -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniel Adams's Labs for INST377</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- wrapper -->
+      <header class="header"><h1>Daniel Adams's Labs for INST377</h1></header>
+      <div class="container">
+        <!-- container -->
+        <div class="left_section box">
+          <!-- left inputs -->
+          <h2>Albums Names</h2>
+          <div class="box">
+            <ol>
+              <li>Yeah Yeah Yeahs - Fever To Tell</li>
+              <li>Underworld - Dubnobasswithmyheadman</li>
+              <li>Young Fathers - Cocoa Butter</li>
+              <li>Sleigh Bells - Treats</li>
+              <li>Handsome Furs - Face Control</li>
+            </ol>
+          </div>
+        </div>
+        <div class="right_section box">
+          <!-- right side -->
+          <h2>Image Carousel</h2>
+            <!-- images box-->
+            <div class="carousel">
+                <button class="prev">prev</button>
+                <div class="slides">
+                  <div class="carousel_item visible"><img id="slide_1" img src="images/basketball1.jpeg" alt="A money ball basketball" /></div>
+                  <div class="carousel_item hidden"><img id="slide_2" img src="images/basketball2.png" alt="A black basketball" /></div>
+                  <div class="carousel_item hidden"><img id="slide_3" img src="images/basketball3.png" alt="A regular basketball" /></div>
+                  <div class="carousel_item hidden">
+                      <img
+                        id = "slide_4"
+                        src="images/basketball4.jpeg"
+                        alt="A FIBA basketball"
+                      />
+                  </div>
+                </div>
+                <button class="next">next</button>
+          </div>
+          <div class="box">
+            <p>
+              Four decilicous mochis: one dances, another safe in a bubble, one
+              simply wants to smile, and another can change sizes
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      dadams16
+      <a href="https://github.com/dadams16/INST377-Lab-Work"
+        >My Github Account</a
+      >
+    </footer>
+    <script src="script.js" ></script>
+  </body>
+</html>
